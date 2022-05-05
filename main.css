@@ -1,0 +1,34 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  background-image: url("img/bg.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center p{
+  left: 45%;
+  top: 37%;
+  position: absolute;
+  font-size: 75px;
+  font-family: Courier New;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.center ul{
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+}
+
+.center ul li{
+  display: inline-block;
+  margin: 7px;
+}
